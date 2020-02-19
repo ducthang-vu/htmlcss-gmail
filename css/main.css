@@ -13,6 +13,9 @@ body {
   background-size: cover;
 }
 
+.contenitore {
+}
+
 
 /* Header */
 
@@ -21,6 +24,8 @@ body {
   border-bottom: 1px solid #fff;
   margin: 25px 35px;
   padding: 10px;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 #inconamenu {
@@ -54,6 +59,7 @@ body {
 .comunicazione {
   margin: 0 35px 12px;
   color: white;
+  padding-left: 5px;
 }
 
 .numero-com {
@@ -72,6 +78,8 @@ body {
   margin: 0 35px;
   background: white;
   border: 1px solid rgba(255,255,255,1);
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .campo-boxes {
@@ -106,6 +114,8 @@ body {
 .mail-item {
   height: 30px;
   border: 1px solid rgba(255,255,255,1);
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 
