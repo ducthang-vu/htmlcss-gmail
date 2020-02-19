@@ -1,0 +1,161 @@
+/* Per tutta la pagina */
+
+* {
+  box-sizing: border-box;
+  font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+
+/* Body */
+
+body {
+  background-image: url('../img/background.jpg');
+  background-size: cover;
+}
+
+
+/* Header */
+
+.header-box {
+  height: 50px;
+  border-bottom: 1px solid #fff;
+  margin: 25px 35px;
+  padding: 10px;
+}
+
+#inconamenu {
+  width: 25px;
+  height: 25px;
+  vertical-align: top
+}
+
+#logo {
+  width: 35px;
+  height: 35px;
+  vertical-align: top
+}
+
+#testo-logo {
+  vertical-align: super;
+  color: white;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+#ricerca {
+  resize: none;
+}
+
+
+/* main */
+
+/* comunicazione mail non lette*/
+.comunicazione {
+  margin: 0 35px;
+  color: white;
+  display: inline-block;
+}
+
+.numero-com {
+  display: inline-block;
+  background-color: orange;
+  width: 23px;
+  height:23px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 26px;
+}
+
+/* intestazione prima della lista mail */
+
+.testasezione {
+  margin: 0 35px;
+  background: white;
+  border: 1px solid rgba(255,255,255,1);
+}
+
+.campo-boxes {
+  display: inline-block;
+  width: 90px;
+  font-weight: bold;
+}
+
+.campo-oggetto {
+  display: inline-block;
+  width: 130px;
+  font-weight: bold;
+}
+
+.campo-testo {
+  display: inline-block;
+  font-weight: bold;
+}
+
+
+/*  lista delle mail */
+
+.lista-mail {
+  margin: 0 35px;
+  background: snow;
+  border: 1px solid rgba(255,255,255,1);
+}
+
+.mail-item {
+  height: 30px;
+  border: 1px solid rgba(255,255,255,1);
+}
+
+
+/* classe specifica agguintiva per le mail non lette */
+.non-letto {
+  background-color: silver;
+}
+
+.boxes {
+  width: 90px;
+  display: inline-block;
+  padding-right: 15px;
+}
+
+.oggetto {
+  display: inline-block;
+  width: 130px;
+  font-weight: bolder;
+}
+
+.oggetto::after {
+  content: '  -  '
+}
+
+.checkbox-sel {
+  vertical-align: center;
+}
+
+.checkbox-spe {
+  vertical-align: center;
+  color: gold;
+}
+
+.checkbox-imp {
+  vertical-align: center;
+  color: blue;
+}
+
+.text {
+  vertical-align: center;
+  display: inline-block;
+}
+
+.text::after {
+  content: '...'
+}
+
+/* footer */
+footer {
+  text-align: right;
+  font-size: 8px;
+  margin: 0 35px;
+  padding-right: 5px;
+  color: white;
+  font-style: italic;
+}
